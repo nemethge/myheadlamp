@@ -1,0 +1,12 @@
+
+apiVersion: helm.fluxcd.io/v1
+kind: HelmRelease
+metadata:
+  name: my-headlamp
+  namespace: kube-system
+spec:
+  releaseName: my-headlamp
+  chart:
+    repository: https://headlamp-k8s.github.io/headlamp/
+    name: headlamp
+    version: <chart_version>

@@ -1,0 +1,3 @@
+
+# Mivel a patch művelet nem reprezentálható közvetlenül YAML-ban, ezt a lépést manuálisan kell végrehajtania az ArgoCD alkalmazás létrehozása után,
+# vagy használhat egy külön scriptet vagy eszközt a módosítás automatizálásához.
